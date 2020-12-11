@@ -1,0 +1,49 @@
+{
+    "name": "chrome-extension",
+    "version": "1.0.0",
+    "description": "[Chrome 插件 攻略](https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html)",
+    "main": "index.js",
+    "scripts": {
+        "serve": "webpack serve",
+        "build": "webpack ./src/main.js --config ./build/webpack.config.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/btea/chrome-extension.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/btea/chrome-extension/issues"
+    },
+    "homepage": "https://github.com/btea/chrome-extension#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.1.0",
+        "babel-loader": "^8.2.2",
+        "cache-loader": "^4.1.0",
+        "css-loader": "^5.0.1",
+        "dart-sass": "^1.25.0",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^4.5.0",
+        "postcss-loader": "^4.1.0",
+        "sass-loader": "^10.1.0",
+        "style-loader": "^2.0.0",
+        "thread-loader": "^3.0.1",
+        "url-loader": "^4.1.1",
+        "vue-loader": "^16.1.1",
+        "webpack": "^5.10.0",
+        "webpack-cli": "^4.2.0",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.12.10",
+        "@babel/runtime-corejs2": "^7.12.5",
+        "@vue/compiler-sfc": "^3.0.4",
+        "core-js": "^2.6.12",
+        "vue": "^3.0.4"
+    }
+}
