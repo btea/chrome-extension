@@ -1,4 +1,4 @@
-const { mode } = require("./build/webpack.config");
+const { mode } = require("./webpack.config");
 module.exports = {
     plugins: {
         autoprefixer: {},
