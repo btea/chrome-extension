@@ -20,6 +20,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 let el = document.querySelector("#bili_report_douga");
 let newEl = document.createElement("h1");
 newEl.style = "text-align: center; color: #6cf;";
-newEl.innerHTML = "这里是比例哔哩哔哩干杯2233！";
+newEl.innerHTML = "哔哩哔哩干杯！！！[]~(￣▽￣)~*！";
 el.parentNode.insertBefore(newEl, el);
 console.log("这里是content");

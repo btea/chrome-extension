@@ -29,7 +29,6 @@
         "contextMenu",
         "activeTab",
         "tabs",
-        "http://192.168.124.7:2233",
         "notifications",
         "webRequest",
         "webRequestBlocking",
