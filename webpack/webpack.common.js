@@ -5,6 +5,9 @@ const { VueLoaderPlugin } = require("vue-loader");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const ReloadPlugin = require("../reloadPlugin");
+const autoGetIp = require("../ast");
+
+autoGetIp();
 
 module.exports = {
     entry: {

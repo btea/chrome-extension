@@ -20,9 +20,12 @@
     },
     "homepage": "https://github.com/btea/chrome-extension#readme",
     "devDependencies": {
+        "@babel/parser": "^7.12.11",
+        "@babel/template": "^7.12.7",
         "@vue/compiler-sfc": "^3.0.4",
         "autoprefixer": "^10.1.0",
         "babel-loader": "^8.2.2",
+        "babel-traverse": "^6.26.0",
         "cache-loader": "^4.1.0",
         "clean-webpack-plugin": "^3.0.0",
         "copy-webpack-plugin": "^7.0.0",
@@ -49,7 +52,6 @@
         "@babel/preset-env": "^7.12.10",
         "@babel/runtime-corejs2": "^7.12.5",
         "core-js": "^2.6.12",
-        "vue": "^3.0.4",
-        "wangeditor": "^4.5.3"
+        "vue": "^3.0.4"
     }
 }
