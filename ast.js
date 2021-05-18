@@ -84,5 +84,5 @@ function editCode() {
         // });
     });
 }
-editCode();
+
 module.exports = editCode;
