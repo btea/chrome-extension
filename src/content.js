@@ -50,7 +50,7 @@ console.log(
 );
 console.log("(￢_￢)");
 const box = document.createElement("div");
-box.addClass("extension-container");
+box.classList.add("extension-container");
 const app = createApp(Content);
 app.mount(box);
 document.body.appendChild(box);

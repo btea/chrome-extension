@@ -176,7 +176,7 @@ module.exports = {
 		 * 注：网址后面应带上 '/' 否则插件会报错  Invalid value for 'content_scripts[0].matches[0]': Empty path.
 		 */
 		new ReloadPlugin({
-			url: "https://www.baidu.com/"
+			url: "https://www.bilibili.com/"
 		}),
 		// new webpack.NamedModulesPlugin(),
 		// new webpack.HotModuleReplacementPlugin(),
