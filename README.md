@@ -1,5 +1,4 @@
-> 注意说明：为保证webpack插件和浏览器插件能正常通信，请将background.js里面建立连接的ip地址换成你本机的地址，同时确保webpack插件 SSE 服务和 background.js 里请求端口一致~~
-
+> 注意说明：为保证webpack插件和浏览器插件能正常通信，~~请将background.js里面建立连接的ip地址换成你本机的地址，同时确保webpack插件 SSE 服务和 background.js 里请求端口一致~~  现在通过自动获取当前用户 ip 地址并通过解析ast自动替换替换请求地址，无需手动修改~   
 
 ### 代码修改之后，插件自动更新
 
