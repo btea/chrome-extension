@@ -3,7 +3,7 @@ import Background from "./Background.vue";
 
 createApp(Background).mount("#background");
 
-const address = "http://192.168.0.1:2233";
+const address = 'http://192.168.50.168:2233'
 function link() {
 	let es = new EventSource(address);
 	es.onmessage = dealRes;
