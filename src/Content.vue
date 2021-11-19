@@ -48,6 +48,7 @@ const saveMenu = () => {
 	a.click()
 }
 
+// 跳转到下一章之后自动下载
 const next = () => {
 	const el = document.querySelector('.step-btn.step-btn--next')
 	if (el) {
